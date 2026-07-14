@@ -32,9 +32,22 @@ REQUIRED = {
     ],
     "examples/game-project/README.md": [
         "## Start Here",
+        "## The Playable Slice Loop",
+        "## Four Useful Prompts",
         "## What The Template Protects",
         "## Human Review Checklist",
+        "## What Each Check Can Prove",
+        "## Practical Failure Traps",
         "## What This Is Not",
+    ],
+    "examples/game-project/PLAYABLE_SLICE_CARD.md": [
+        "## Copyable Card",
+        "### Player Outcome",
+        "### Starting Point",
+        "### Sources And Boundaries",
+        "### Acceptance",
+        "### Required Handoff",
+        "## Filled Synthetic Example",
     ],
     "examples/game-project/AGENTS.md": [
         "## Project North Star",
@@ -52,7 +65,18 @@ REQUIRED_PHRASES = {
         "https://github.com/TheDarkniteFalls/codex-project-instructions-starter",
         "worth considering",
     ],
-    "examples/game-project/README.md": ["Godot", "Unity", "Unreal"],
+    "examples/game-project/README.md": [
+        "Godot",
+        "Unity",
+        "Unreal",
+        "Playable Slice Card",
+        "Playable is not consistently fun",
+    ],
+    "examples/game-project/PLAYABLE_SLICE_CARD.md": [
+        "Human playtest route",
+        "Still unproven after this slice",
+        "This example is fictional",
+    ],
     "examples/game-project/AGENTS.md": [
         "[EXACT COMMAND]",
         "human playtest",
