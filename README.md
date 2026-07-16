@@ -1,5 +1,17 @@
 # Codex Project Instructions Starter
 
+<!-- toolkit-trust-card:start -->
+> **Public contract:** Stable guide · about 10 min · No code; Python optional · no model · no network
+>
+> **Operation:** Guidance only
+>
+> **A pass establishes:** The required instruction templates and examples are present and structurally valid.
+>
+> **It does not establish:** Written instructions guide behavior but do not technically enforce it.
+>
+> **First check:** `python3 check_templates.py`
+<!-- toolkit-trust-card:end -->
+
 Copyable project instructions for teams and independent builders using
 Codex-style coding agents, including AI-assisted game-development projects.
 
