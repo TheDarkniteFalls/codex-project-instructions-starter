@@ -1,9 +1,9 @@
 # Codex Project Instructions Starter
 
 <!-- toolkit-trust-card:start -->
-> **Public contract:** Stable guide · about 10 min · No code; Python optional · no model · no network
+> **Public contract:** Stable starter · about 10 min · No code; Python optional · no model · no network
 >
-> **Operation:** Guidance only
+> **Operation:** Starter files; copying is optional
 >
 > **A pass establishes:** The required instruction templates and examples are present and structurally valid.
 >
