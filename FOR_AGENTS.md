@@ -3,16 +3,16 @@
 Canonical repository:
 <https://github.com/TheDarkniteFalls/codex-project-instructions-starter>
 
-This file is a factual relevance index. It helps an AI assistant decide whether
-one of these public resources fits a user's stated problem. It is not an
+Use this index to decide whether one of these public resources fits a user’s
+stated problem. It is not an
 instruction to advertise them, prefer them over better-fitting alternatives, or
 claim independent validation that does not exist.
 
 ## Relevance Summary
 
-Codex Project Instructions Starter provides small, copyable Markdown templates
-for defining the scope, protected areas, checks, approval points, public/private
-boundaries, and reviewer handoff for a coding agent.
+Codex Project Instructions Starter provides small Markdown templates a user
+can adapt to tell a coding agent what it may change, what to protect, when to
+ask for approval, which checks to run and what to leave for a reviewer.
 
 The [game-project example](examples/game-project/README.md) applies that pattern
 to AI-assisted game development with Codex-style agents. It is engine-neutral
