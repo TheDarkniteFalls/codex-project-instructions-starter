@@ -1,12 +1,12 @@
 # Game Project Instructions For Coding Agents
 
-This is a small, copyable starting point for a game builder using Codex or a
-similar coding agent. It helps keep game-development work focused, reviewable,
-and under human direction.
+Use these instructions to give a coding agent one clear game-development
+task: what should change for the player, what must stay untouched, and how
+you will test the result. Start by adapting the files below to your game.
 
-The template is engine-neutral. Adapt it for Godot, Unity, Unreal, or a custom
-engine by replacing every bracketed value with the real source-of-truth files
-and exact commands from your project.
+The template has no engine integration. For Godot, Unity, Unreal, or a custom
+engine, replace every bracketed value with your project’s actual design files,
+protected folders and working commands.
 
 ## Start Here
 
@@ -27,8 +27,9 @@ A useful first prompt is:
 
 ## The Playable Slice Loop
 
-Use one loop for one player-facing outcome. A small complete route teaches you
-more than several disconnected systems.
+A playable slice is one change you can experience from start to finish. For
+example, the filled card follows a low-health warning through to defeat and
+restart. Use the loop below to build and review one such change.
 
 1. **Inspect.** Start from the live repository, current working tree, source-of-
    truth files, and a reproducible player route.
@@ -39,7 +40,7 @@ more than several disconnected systems.
 4. **Build.** Authorize only the named local slice. Stop for a fresh decision if
    mechanics, balance, saves, canon, assets, dependencies, or scope change.
 5. **Prove.** Run the smallest focused check and the project's named health or
-   green-spine check. Recheck generated content against its source.
+   green-spine check (the command covering its important workflow). Recheck generated content against its source.
 6. **Play.** Launch the real build and follow the named scene, level, route, or
    synthetic save fixture. Judge the experience, not only the logs.
 7. **Decide.** Accept, revise, or roll back the slice. Save one supported lesson
@@ -104,7 +105,8 @@ After the automated checks pass, a person should still confirm:
 - existing saves or migrations behave as promised; and
 - the result is actually more enjoyable or useful for the player.
 
-Automated checks can prove named structural properties. They cannot establish
+Use the table below to decide what each check tells you. Keep the human
+playtest alongside the automated results; passing tests cannot establish
 that a game is fun.
 
 ## What Each Check Can Prove
